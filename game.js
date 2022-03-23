@@ -720,7 +720,6 @@ Asteroid = function () {
         roid.move(roid.scale * 3); // give them a little push
         Game.sprites.push(roid);
       }
-      this.breakIntoFragments();
     }
     Game.explosionAt(other.x, other.y);
     this.die();
